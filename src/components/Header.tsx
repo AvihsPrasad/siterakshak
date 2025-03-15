@@ -34,7 +34,7 @@ function Header() {
                     </ul>
                     <form className="d-flex">
                         {/* <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" /> */}
-                        <a className="btn btn-dark" href={`/about-us`}>Get in touch</a>
+                        <a className="btn btn-dark" href={`/contact`}>Get in touch</a>
                     </form> 
                 </div>
             </div>

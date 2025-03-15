@@ -11,7 +11,7 @@ function Service() {
                 <div className="container">
                     <h1>We provide services on guarding your Land/Properties.</h1>
                     <p>Choose your required services or get a custom one, to your needs.</p>
-                    <div><a href={`/about-us`} className="btn btn-dark btn-lg">Book a call</a></div>
+                    <div><a href={`/contact`} className="btn btn-dark btn-lg">Book a call</a></div>
                 </div>
             </div>
             <div className="pad-80" style={{ background: '#667085', color: '#fff' }}>
@@ -38,7 +38,7 @@ function Service() {
                             <div>
                                 pricing qutation: 2.5rs/sqft.
                             </div>
-                            <a className="btn btn-dark mt-4" href={`/about-us`}>Book service.</a>
+                            <a className="btn btn-dark mt-4" href={`/contact`}>Book service.</a>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ function Service() {
                             {/* <div>
                                 pricing qutation: 2.5rs/sqft.
                             </div> */}
-                            <a className="btn btn-dark mt-4" href={`/about-us`}>Book Service.</a>
+                            <a className="btn btn-dark mt-4" href={`/contact`}>Book Service.</a>
                         </div>
                         <div className="col-sm-12 col-md-6 col-lg-6">
                             <div className="asset-images">
@@ -102,7 +102,7 @@ function Service() {
                             {/* <div>
                                 pricing qutation: 2.5rs/sqft.
                             </div> */}
-                            <a className="btn btn-dark mt-4" href={`/about-us`}>Book service.</a>
+                            <a className="btn btn-dark mt-4" href={`/contact`}>Book service.</a>
                         </div>
                         <div className="col-sm-12 col-md-6 col-lg-6">
                             <div className="asset-images">
@@ -133,7 +133,7 @@ function Service() {
                                     <p>We install webcam on propertiesm so you can have a live feed. (coming soon)</p>  
                                 </li>
                             </ul>
-                            <a className="btn btn-dark mt-4" href={`/about-us`}>Book service.</a>
+                            <a className="btn btn-dark mt-4" href={`/contact`}>Book service.</a>
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@ function Service() {
                     <div className="intro-block">
                         <h2><span>That's all about us</span></h2>
                         <p>We are excited about the opportunity to help your queries, question and how we can help you achieve solution to your issues.</p>
-                        <a className="btn btn-outline-light" href={`/about-us`}>Get in touch</a>
+                        <a className="btn btn-outline-light" href={`/contact`}>Get in touch</a>
                     </div>
                 </div>
             </div>

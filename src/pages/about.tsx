@@ -1,7 +1,7 @@
 import logo from '../../public/SR.png'
 function About() {
     return (
-        <div className="about-us-page">
+        <div className="contact-page">
             <div className="bannerblock d-flex justify-content-center align-items-center">
                 <div className="container">
                     <h1>We are the people who takecare your assets.</h1>
@@ -24,7 +24,7 @@ function About() {
                             <div className="title">ABOUT US</div>
                             <div className="heading">A better team with <span>good services</span></div>
                             <p>We excel in managing ur properties on behalf of you, secure them from getting occupied by any unknow entity.</p>
-                            <div><a href={`/about-us`} className="btn btn-dark btn-lg">Contact Us</a></div>
+                            <div><a href={`/contact`} className="btn btn-dark btn-lg">Contact Us</a></div>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ function About() {
                     <div className="intro-block">
                         <h2><span>That's all about us</span></h2>
                         <p>We are excited about the opportunity to help your queries, question and how we can help you achieve solution to your issues.</p>
-                        <a className="btn btn-outline-light" href={`/about-us`}>Get in touch</a>
+                        <a className="btn btn-outline-light" href={`/contact`}>Get in touch</a>
                     </div>
                 </div>
             </div>
