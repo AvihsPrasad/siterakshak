@@ -1,8 +1,8 @@
-import { BrowserRouter, NavLink } from "react-router-dom";
+import {NavLink } from "react-router-dom";
 
 function Header() {
 
-    return (<BrowserRouter>
+    return (<>
         <nav className="header navbar navbar-expand-lg navbar-light bg-white p-4">
             <div className="container">
                 <a className="navbar-brand" href="#"><span>S</span>ite <span>R</span>akshak</a>
@@ -16,20 +16,20 @@ function Header() {
                             <NavLink to='/' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link inactive')}>Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href={`/service`}>Services</a>
-                            {/* <NavLink to='/service' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link inactive')}>Services</NavLink> */}
+                            {/* <a className="nav-link" href={`/service`}>Services</a> */}
+                            <NavLink to='/service' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link inactive')}>Services</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href={`/documentation`}>Documentation</a>
-                            {/* <NavLink to='/Docs' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link inactive')}>Docmentation</NavLink> */}
+                            {/* <a className="nav-link" href={`/documentation`}>Documentation</a> */}
+                            <NavLink to='/documentation' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link inactive')}>Docmentation</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href={`/about-us`}>About US</a>
-                            {/* <NavLink to='/about-us' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link inactive')}>About</NavLink> */}
+                            {/* <a className="nav-link" href={`/about-us`}>About US</a> */}
+                            <NavLink to='/about-us' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link inactive')}>About</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href={`/contact`}>Contact</a>
-                            {/* <NavLink to='/contact' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link inactive')}>Contact</NavLink> */}
+                            {/* <a className="nav-link" href={`/contact`}>Contact</a> */}
+                            <NavLink to='/contact' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link inactive')}>Contact</NavLink>
                         </li>
                     </ul>
                     <form className="d-flex">
@@ -38,7 +38,7 @@ function Header() {
                     </form> 
                 </div>
             </div>
-        </nav></BrowserRouter>
+        </nav></>
     )
 }
 
