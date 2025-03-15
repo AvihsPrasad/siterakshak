@@ -13,6 +13,7 @@ function Document() {
                     <div className="intro-block">
                         <h2><span>Documentation Lists</span></h2>
                         <p>Here are the list of things to which we provide Documentation</p>
+                        <div><button type="button" className="btn btn-dark mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Book a call</button></div>
                     </div>
                     <div className="row m-0">
                         <div className="col-sm-12 col-md-6 col-lg-6">
@@ -20,13 +21,16 @@ function Document() {
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="flush-headingOnee">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOnee" aria-expanded="false" aria-controls="flush-collapseOne">
-                                            EC
+                                        Encumbrance Certificate (EC)
                                         </button>
                                     </h2>
                                     <div id="flush-collapseOnee" className="accordion-collapse collapse" aria-labelledby="flush-headingOnee" data-bs-parent="#accordionFlushExample1">
                                         <div className="accordion-body">
-                                            Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.
-                                            <div><button type="button" className="btn btn-dark btn-sm mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Book a call</button></div>
+                                            <p>An EC is a legal document that proves a property is free from any legal or financial liabilities.</p>
+                                            <p>
+                                                It records any registered transactions related to the property, such as mortgages, loans, or liens, over a specified period.
+                                                It verifies that the property's ownership is clear and free from disputes.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -38,8 +42,10 @@ function Document() {
                                     </h2>
                                     <div id="flush-collapseTwoo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwoo" data-bs-parent="#accordionFlushExample1">
                                         <div className="accordion-body">
-                                            Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.
-                                            <div><button type="button" className="btn btn-dark btn-sm mt-4">Book a call</button></div>
+                                            <p>
+                                                A "property sketch" is a visual representation of a piece of land or a building, and it serves several important purposes in real estate and property management.
+                                                It clearly delineates the boundaries of the land, showing where one property ends and another begins.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -57,7 +63,7 @@ function Document() {
                                                 <li><p>water tax</p></li>
                                                 <li><p>Sale deed</p></li>
                                                 <li><p>Records of Rights, Tenancy and Crops (RTC)/Pahani</p></li>
-                                                <li><p>Encumbrance Certificate</p></li>
+                                                <li><p>Encumbrance Certificate (EC)</p></li>
                                                 <li><p>Land Conversion</p></li>
                                             </ul>
                                         </div>
@@ -74,7 +80,11 @@ function Document() {
                                         </button>
                                     </h2>
                                     <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample2">
-                                        <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                        <div className="accordion-body">
+                                            <p>
+                                                It's a legal process of changing ownership of a property from one person or entity to another. This process can occur through various means, and it's essential to understand the legal implications involved. 
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="accordion-item">
@@ -84,7 +94,11 @@ function Document() {
                                         </button>
                                     </h2>
                                     <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample2">
-                                        <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                        <div className="accordion-body">
+                                            <p>
+                                            Property verification is a crucial process, especially when buying or selling real estate. It's essentially a due diligence check to ensure the property's legal status and ownership are clear. 
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="accordion-item">
@@ -94,7 +108,9 @@ function Document() {
                                         </button>
                                     </h2>
                                     <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample2">
-                                        <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                        <div className="accordion-body">
+                                            Get assistance on buying or selling proerty ans per market standards.
+                                        </div>
                                     </div>
                                 </div>
                             </div>

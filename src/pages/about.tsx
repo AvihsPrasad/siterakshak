@@ -1,3 +1,4 @@
+import logo from '../../public/SR.png'
 function About() {
     return (
         <div className="about-us-page">
@@ -14,7 +15,8 @@ function About() {
                         <div className="col-sm-12 col-md-6 col-lg-6 logo-block">
                             <div className="card">
                                 <div className="card-body d-flex justify-content-center align-items-center">
-                                    <span>SG</span>
+                                    {/* <span>SG</span> */}
+                                    <img src={logo} alt="Logo" className="img-fluid" />
                                 </div>
                             </div>
                         </div>
