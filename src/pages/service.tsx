@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import cleaning from '../assets/images/cleaning.svg'
 import fence from '../assets/images/fence.svg'
 import customerService from '../assets/images/customService.svg'
@@ -6,10 +5,6 @@ import doc from '../assets/images/doc.svg'
 import manage from '../assets/images/manage.svg'
 
 function Service() {
-    // const [serviceSeleted, setSeviceSelected] = useState('cleaning');
-    useEffect(() => {
-        // setInterval(()=>{},2000)
-    }, [])
     return (
         <div className="Service-page">
             <div className="bannerblock d-flex justify-content-center align-items-center">
