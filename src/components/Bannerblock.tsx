@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 function Bannerblock() {
+    const [pak, setPak] = useState(true);
     return (
         <div className="homepage">
             <div className="bannerblock d-flex justify-content-center align-items-center">
@@ -12,7 +15,7 @@ function Bannerblock() {
                 <div className="container">
                     <div className="intro-block">
                         <h2><span>Available on all major cities.</span></h2>
-                        <p>We excel in managing ur properties on behalf of you, secure them from getting occupied by any unknow entity.</p>
+                        <p>24/7 support and trusted by many clients, with top-notch reviews and rating.</p>
                     </div>
                     <div className="row m-0">
                         <div className="col-sm-4 col-md-4 col-lg-4">
@@ -34,7 +37,7 @@ function Bannerblock() {
                 <div className="container">
                     <div className="intro-block">
                         <h2><span>Our Services Offering</span></h2>
-                        <p>We excel in managing ur properties on behalf of you, secure them from getting occupied by any unknow entity.</p>
+                        <p>Multiple services to make your life better.</p>
                     </div>
                     <div className="row m-0">
                         <div className="col-sm-12 col-md-6 col-lg-3">
@@ -42,7 +45,7 @@ function Bannerblock() {
                                 <div className="card-body">
                                     <div className="service-icon"><i className="fa fa-leaf" aria-hidden="true"></i></div>
                                     <div className="service-title">Cleaning</div>
-                                    <p>We excel in managing ur properties on behalf of you, secure them from getting occupied by any unknow entity.</p>
+                                    <p>Cleaning land, or land clearing, involves removing vegetation, obstacles, and debris to clean an area.</p>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +54,7 @@ function Bannerblock() {
                                 <div className="card-body">
                                     <div className="service-icon"><i className="fa fa-map-signs" aria-hidden="true"></i></div>
                                     <div className="service-title">Fencing</div>
-                                    <p>We excel in managing ur properties on behalf of you, secure them from getting occupied by any unknow entity.</p>
+                                    <p>Fencing land serves various crucial purposes, from defining property boundaries to providing security and containing livestock.</p>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +63,7 @@ function Bannerblock() {
                                 <div className="card-body">
                                     <div className="service-icon"><i className="fa fa-book" aria-hidden="true"></i></div>
                                     <div className="service-title">Documentation</div>
-                                    <p>We excel in managing ur properties on behalf of you, secure them from getting occupied by any unknow entity.</p>
+                                    <p>Obtaining the necessary legal documents for land-related matters can be complex, as it varies significantly based on the specific purpose and location. </p>
                                 </div>
                             </div>
                         </div>
@@ -69,7 +72,7 @@ function Bannerblock() {
                                 <div className="card-body">
                                     <div className="service-icon"><i className="fa fa-camera" aria-hidden="true"></i></div>
                                     <div className="service-title">Managing</div>
-                                    <p>We excel in managing ur properties on behalf of you, secure them from getting occupied by any unknow entity.</p>
+                                    <p>Protecting your land, site, properties from being occupied by other individuals illegally. By getting timely update from time to time.</p>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +83,7 @@ function Bannerblock() {
                 <div className="container">
                     <div className="intro-block">
                         <h2><span>Client Testimonial</span></h2>
-                        <p>We excel in managing ur properties on behalf of you, secure them from getting occupied by any unknow entity.</p>
+                        <p>Our dedication to excellence drives us to truly understand and meet the unique needs of each customer.</p>
                     </div>
                     <div className="row m-0">
                         <div className="col-sm-12 col-md-4 col-lg-4">
@@ -166,10 +169,10 @@ function Bannerblock() {
                         <div className="d-flex package-period justify-content-center">
                             <ul className="nav nav-pills">
                                 <li className="nav-item">
-                                    <a className="nav-link bg-dark active" aria-current="page" href="#">Monthly</a>
+                                    <a className={pak ?'nav-link bg-dark active': 'nav-link'} onClick={() => setPak(!pak)}>Monthly</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Annual</a>
+                                    <a className={ !pak ?'nav-link bg-dark active': 'nav-link'} onClick={() => setPak(!pak)}>Annual</a>
                                 </li>
                             </ul>
                         </div>
@@ -178,7 +181,7 @@ function Bannerblock() {
                                 <div className="card">
                                     <div className="card-body">
                                         <div className="plan-text">Basic</div>
-                                        <div className="price">1000<i className="fa fa-inr" aria-hidden="true"></i></div>
+                                        <div className="price">{pak?  1000 : 1000*5}<i className="fa fa-inr" aria-hidden="true"></i></div>
                                         <div className="price-details">Per month. billed annually.</div>
                                         <div className="price-heading">List of Basic services provide for this price.</div>
                                         <div className="price-descp">
@@ -202,7 +205,7 @@ function Bannerblock() {
                                 <div className="card">
                                     <div className="card-body">
                                         <div className="plan-text">Standard</div>
-                                        <div className="price">4000<i className="fa fa-inr" aria-hidden="true"></i></div>
+                                        <div className="price">{pak?  1500 : 1500*5}<i className="fa fa-inr" aria-hidden="true"></i></div>
                                         <div className="price-details">Per/month. billed annually.</div>
                                         <div className="price-heading">List of Basic services provide for this price.</div>
                                         <div className="price-descp">
@@ -306,7 +309,7 @@ function Bannerblock() {
                     <div className="intro-block">
                         <h2><span>That's all about us</span></h2>
                         <p>We are excited about the opportunity to help your queries, question and how we can help you achieve solution to your issues.</p>
-                        <button className="btn btn-outline-light" type="button">Get in touch</button>
+                        <a className="btn btn-outline-light" href={`/contact`}>Get in touch</a>
                     </div>
                 </div>
             </div>

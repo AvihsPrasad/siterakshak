@@ -113,6 +113,7 @@ h1,h2,h3,h4,h5,p,a{
 .serviceBlock .card {
   /* background-color: #F1F2F4; */
   margin-bottom: 20px;
+  height: 100%;
 }
 .card:hover {
   cursor: pointer;
@@ -442,6 +443,7 @@ h1,h2,h3,h4,h5,p,a{
   }
   .package-period .nav-pills .nav-link{
     padding: 10px 20px;
+    cursor: pointer;
   }
   .footerBlock .contact div i:nth-child(1){
     padding-left: 0;

@@ -124,7 +124,7 @@ function Document() {
                     <div className="intro-block">
                         <h2><span>That's all about us</span></h2>
                         <p>We are excited about the opportunity to help your queries, question and how we can help you achieve solution to your issues.</p>
-                        <button className="btn btn-outline-light" type="button">Get in touch</button>
+                        <a className="btn btn-outline-light" href={`/about-us`}>Get in touch</a>
                     </div>
                 </div>
             </div>

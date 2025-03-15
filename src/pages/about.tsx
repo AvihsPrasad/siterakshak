@@ -24,7 +24,7 @@ function About() {
                             <div className="title">ABOUT US</div>
                             <div className="heading">A better team with <span>good services</span></div>
                             <p>We excel in managing ur properties on behalf of you, secure them from getting occupied by any unknow entity.</p>
-                            <div><button type="button" className="btn btn-dark btn-lg">Contact Us</button></div>
+                            <div><a href={`/about-us`} className="btn btn-dark btn-lg">Contact Us</a></div>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ function About() {
                     <div className="intro-block">
                         <h2><span>That's all about us</span></h2>
                         <p>We are excited about the opportunity to help your queries, question and how we can help you achieve solution to your issues.</p>
-                        <button className="btn btn-outline-light" type="button">Get in touch</button>
+                        <a className="btn btn-outline-light" href={`/about-us`}>Get in touch</a>
                     </div>
                 </div>
             </div>
